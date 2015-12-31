@@ -1,0 +1,16 @@
+# use double quotes (") for outer quotes and single quotes (') for inner.
+# For links: put the pdf in /files/publications, and put just the file title in the 'link' field.
+# For pics: put the thumbnail in /files/publications, and put just the file title in the 'pic' field.
+
+# New:
+# fields are: title, authors, pubname, pubinfo year, link, pic, and other
+# other can contain other links/buttons whatever.
+# You can add "pubprefix" to do something like page numbers and/or "In:"
+
+- title: "Rethinking Policy Perspectives on Childhood Stunting: Time to formulate a Structural and Multifactorial Strategy"
+  authors: "Subramanian, S.V., <ins> I. Mejía-Guevara, I</ins>, and A. Krishna"
+  pubname: "Maternal & Child Nutrition."
+  pubinfo: "In Press"
+#  year: "In Press"
+#  link: "Palacios et al. -2015 -Genetics.pdf"
+  pic: "cover_mcn.gif"
