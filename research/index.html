@@ -1,0 +1,140 @@
+---
+layout: default
+title: publications
+---
+		<div class="blurb">
+        		<h2>Publications</h2>
+        		
+        		<h3>Preprints</h3>
+        		
+		<!--	<p>This page is under construction. <a href="https://sites.google.com/site/juliaapalaciosroman/summary-3" target="_blank">See my old page</a></p> -->
+
+    		</div><!-- /.blurb -->
+    		{% assign articles = site.data.preprints | sort: 'year' %}
+{% for article in articles reversed %}
+
+{% if forloop.first == true %}
+  {% assign prevyear = "0" %}
+{% endif %}
+
+{% assign curryear = article.year %}
+
+{% if curryear != prevyear %}
+  {% if forloop.first == false %}</ul>{% endif %}
+  
+  <div class="pub-year-header">{{ curryear }}</div>
+  <ul class="pub-list">
+  {% assign prevyear = curryear %}
+{% endif %}
+
+<li>
+  
+  <a class="pub-img {% if article.link %}hoverable{% endif %}" {% if article.link %}href="{{ site.baseurl }}/research/publications/{{ article.link }}" target="_blank"{% endif %}>
+    <img src="{% if article.pic %}{{ site.baseurl }}/research/publications/{{ article.pic }}{% else %}{{ site.baseurl }}/research/publications/placeholder.svg{% endif %}" alt="" />
+  </a>
+
+  <p><span class="pub-title">{{ article.title }}</span></p>
+  <p><span class="pub-authors">{{ article.authors }}</span></p>
+  <p>
+    <span class="pub-pubprefix">{{ article.pubprefix}}</span>
+    <span class="pub-journal">{{ article.pubname }}</span>
+    <span class="pub-pubinfo">{{ article.pubinfo }}</span>
+  </p>
+
+</li>
+
+{% endfor %}
+</ul>
+	
+		<div class="blurb">
+        	
+        		<h3>In Press</h3>
+        		
+		<!--	<p>This page is under construction. <a href="https://sites.google.com/site/juliaapalaciosroman/summary-3" target="_blank">See my old page</a></p> -->
+
+    		</div><!-- /.blurb -->
+	
+{% assign articles = site.data.publications | sort: 'year' %}
+{% for article in articles reversed %}
+
+{% if forloop.first == true %}
+  {% assign prevyear = "0" %}
+{% endif %}
+
+{% assign curryear = article.year %}
+
+{% if curryear != prevyear %}
+  {% if forloop.first == false %}</ul>{% endif %}
+  
+  <div class="pub-year-header">{{ curryear }}</div>
+  <ul class="pub-list">
+  {% assign prevyear = curryear %}
+{% endif %}
+
+<li>
+  
+  <a class="pub-img {% if article.link %}hoverable{% endif %}" {% if article.link %}href="{{ site.baseurl }}/research/publications/{{ article.link }}" target="_blank"{% endif %}>
+    <img src="{% if article.pic %}{{ site.baseurl }}/research/publications/{{ article.pic }}{% else %}placeholder.svg{% endif %}" alt="" />
+  </a>
+
+  <p><span class="pub-title">{{ article.title }}</span></p>
+  <p><span class="pub-authors">{{ article.authors }}</span></p>
+  <p>
+    <span class="pub-pubprefix">{{ article.pubprefix}}</span>
+    <span class="pub-journal">{{ article.pubname }}</span>
+    <span class="pub-year">{{ article.year }}</span>
+    <span class="pub-pubinfo">{{ article.pubinfo }}</span>
+  </p>
+
+</li>
+
+{% endfor %}
+</ul>
+
+<div class="blurb">
+        		
+        		<h3>Book Chapters</h3>
+        		
+		<!--	<p>This page is under construction. <a href="https://sites.google.com/site/juliaapalaciosroman/summary-3" target="_blank">See my old page</a></p> -->
+
+    		</div><!-- /.blurb -->
+    		{% assign articles = site.data.books | sort: 'year' %}
+{% for article in articles reversed %}
+
+{% if forloop.first == true %}
+  {% assign prevyear = "0" %}
+{% endif %}
+
+{% assign curryear = article.year %}
+
+{% if curryear != prevyear %}
+  {% if forloop.first == false %}</ul>{% endif %}
+  
+  <div class="pub-year-header">{{ curryear }}</div>
+  <ul class="pub-list">
+  {% assign prevyear = curryear %}
+{% endif %}
+
+<li>
+  
+  <a class="pub-img {% if article.link %}hoverable{% endif %}" {% if article.link %}href="{{ site.baseurl }}/research/publications/{{ article.link }}" target="_blank"{% endif %}>
+    <img src="{% if article.pic %}{{ site.baseurl }}/research/publications/{{ article.pic }}{% else %}{{ site.baseurl }}/research/publications/placeholder.svg{% endif %}" alt="" />
+  </a>
+
+  <p><span class="pub-title">{{ article.title }}</span></p>
+  <p><span class="pub-authors">{{ article.authors }}</span></p>
+  <p>
+    <span class="pub-pubprefix">{{ article.pubprefix}}</span>
+    <span class="pub-journal">{{ article.pubname }}</span>
+    <span class="pub-pubinfo">{{ article.pubinfo }}</span>
+  </p>
+
+</li>
+
+	<div class="blurb">
+        	<p>This is my <a href="https://scholar.google.com/citations?user=9ZzUOhsAAAAJ&hl=de"> google scholar </a></p> 
+
+    		</div><!-- /.blurb -->
+
+{% endfor %}
+</ul>
