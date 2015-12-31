@@ -1,0 +1,25 @@
+<head>
+ <!--   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ site.title }}: {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    -->
+    <!-- Import jQuery & Bootstrap js -->
+    <script src="{{ site.baseurl }}/js/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap-3.3.4.min.js"></script>
+
+    <!-- Import Bootstrap & FA CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Import Slick for slideshow -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/slick/slick-theme.css"/>
+    <script type="text/javascript" src="{{ site.baseurl }}/slick/slick.js"></script>
+
+    <!-- Import custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/publications.css" | prepend: site.baseurl }}">
+</head>
