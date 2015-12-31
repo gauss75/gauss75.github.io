@@ -1,0 +1,18 @@
+# Jekyll will not replace liquid tags inside YML files, so if you want to put in a link within the caption, you have to put in the
+# entire thing, e.g. href="http://brown.edu/Research/Ramachandran_Lab/files/...", and not just a relative link.
+# I also included support for an optional 'title' attribute for a while but eventually removed it. We could add this back in if we want.
+
+- src: '21533_ftp.png'
+  caption: "Locations of HGDP Eurasian populations and Native American populations from Wang et al. (2007, PLoS Genetics) that were analyzed by Ramachandran and Rosenberg (2011, AJPA). This comparative study of genetic differentiation on two continents showed that populations are more differentiated along the major axis of the Americas than along the major axis of Eurasia, perhaps due to the relative ease of migration east-west compared to migration north-south."
+
+- src: 'novembre2011ARGHG 2.png'
+  caption: "Figure 7 from Novembre and Ramachandran (2011, Ann Rev Genomics Hum Genet). A schematic of human demographic history, highlighting hypotheses investigated by recent single-nucleotide polymorphism studies discussed in the review. Designed by JN with input from SR."
+
+- src: 'labretreat2014_walking_small.jpg'
+  caption: "The Ramachandran Lab during our 2014 retreat in Maine."
+
+- src: 'Supergroup2015.jpg'
+  caption: "Postdoc Julia Palacios speaking about her paper on Bayesian inference of population size changes from sequential genealogies to the Boston Evolution Supergroup in June 2015 (SR also spoke)."
+
+- src: 'IMG_9748_Lauren_Sugden.jpg'
+  caption: "Postdoc Lauren Sugden at the poster session during Probabilistic Modeling in Genomics (CSHL, 2015)."

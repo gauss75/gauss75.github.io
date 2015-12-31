@@ -1,0 +1,96 @@
+# Position "Alum" moves person to "Former Lab Members"
+# Position "Collaborator" moves person to "Collaborators"
+# Photo is an optional field, others are required. You can use an empty
+# string if you don't want to fill in anything for one of the reequired fields,
+# but if you don't fill in at least the "position" field, strange behavior might occur.
+# Note that photos of former lab members or collaborators will
+# not be displayed (even if the field is included). Photos dir is /files/member_photos
+
+- name: "Sohini Ramachandran"
+  subtitle: "PI"
+  position: "PI"
+  photo: "SohiniRamachandran.jpg"
+  about: "Sohini Ramachandran joined the faculty of Brown University in July 2010, after 3 years as a Junior Fellow at the Harvard Society of Fellows and postdoctoral fellow in Professor John Wakeley’s group at the Harvard University Department of Organismic and Evolutionary Biology.  She completed her PhD in 2007 with Professor Marcus Feldman at Stanford University’s Department of Biological Sciences. <a href='SRamachandran.CV.August2015.pdf' target='_blank'>Current CV</a> and <a href='http://scholar.google.com/citations?user=Mne_iRgAAAAJ&hl=en' target='_blank'>Google Scholar citations</a>"
+
+- name: "Julia Palacios"
+  subtitle: "postdoctoral fellow"
+  position: "Postdoctoral fellow"
+  photo: "juliasmall.png"
+  about: "Julia Palacios received her doctorate in Statistics from the University of Washington studying under Vladimir Minin, and joined the Ramachandran Lab in October 2013. She also works in the Wakeley lab at Harvard. Her primary research interest is the inference of effective population size from multilocus sequence data."
+
+- name: "Lauren Alpert Sugden"
+  subtitle: "postdoctoral fellow"
+  position: "Postdoctoral fellow"
+  photo: "lauren.jpg"
+  about: "Lauren Alpert Sugden received her doctorate in Applied Mathematics from Brown University studying under Chip Lawrence, and joined the Ramachandran Lab in June 2014. Her primary research interest is in the inference of selective sweeps from genome-wide data."
+
+- name: "Priya Nakka"
+  subtitle: "graduate student"
+  position: "Graduate student"
+  photo: "priya.jpg"
+  about: "Priya Nakka majored in Chemistry at Wellesley College and joined the Computational Biology PhD program and the Ramachandran Lab in June 2013. Priya is currently working on inferring the history of selection at risk alleles associated with leukemia across multiple human ethnicities."
+
+- name: "Stephen Rong"
+  subtitle: "graduate student"
+  position: "Graduate Student"
+  photo: "stephen.jpg"
+  about: "Stephen Rong majored in mathematics and anthropology at Washington University in St. Louis where he studied social evolution theory under David Queller. He joined the Ramachandran Lab and the Computational Biology doctoral program in Aug 2014, and though he is currently undecided about what his first research project will be, he is excited to start applying his math bio background to human population genetics."
+
+- name: "Akshay Walia"
+  position: "Alum"
+  photo: "AkshayWalia.jpg"
+  about: "Akshay was a research assistant in the lab from 2012-2014, and will be joining the Schurr lab at Penn for his PhD."
+
+- name: "Aaron Behr '15"
+  position: "Undergraduate"
+  photo: "aaron.jpg"
+  about: "Aaron joined the Ramachandran lab in June 2014, and has spent the past year developing a software package for use in the analysis of population structure. He graduated from Brown this year with majors in Computer Science and in Biology; his thesis was entitled &quot;pong: a network-graphical approach to the inference of population structure&quot;. Aaron is staying on with the lab over the summer to continue working on pong, after which he will join <a href='https://www.oracle.com/big-data/big-data-discovery/index.html' target='_blank'>Oracle's Big Data Discovery team</a> in Cambridge."
+
+- name: "Gracie Liu-Fang '17"
+  subtitle: "(Wellesley College)"
+  position: "Undergraduate"
+  photo: "gracie.jpg"
+  about: "Gracie Liu-Fang is a rising junior Computer Science major and Italian Studies minor at Wellesley College. She joined the Ramachandran lab in May 2015 and is working on a data visualization using d3.js to depict the results of model-based population structure analyses. In her spare time she loves to draw, paint, and travel. Gracie is funded through an REU supplement to <a href='http://www.nsf.gov/awardsearch/showAward?AWD_ID=1452622&HistoricalAwards=false' target='_blank'>NSF CAREER DBI-1452622</a>."
+
+- name: "Katie Liu '17"
+  position: "Undergraduate"
+  photo: "katie.jpg"
+  about: "Katie Liu is an undergraduate concentrating in Computer Science at Brown University. She was welcomed into the Ramachandran lab in June 2015. Her main project in the lab involves working closely with Aaron and Gracie to develop software analyzing population structure, focusing on algorithm implementation. Beyond computer science, she thoroughly enjoys religious studies, psychology, lighthearted banter, and springtime. Katie is funded by Brown University and <a href='https://www.brown.edu/academics/computational-molecular-biology/' target='_blank'>CCMB</a>."
+
+- name: "Lilla Sai-Halasz"
+  position: "Alum"
+  photo: "lilla.jpg"
+  about: "Lilla joined the lab as a high school rising junior during summer 2012 and works on our disease biogeography database, which is a collaboration with EEB faculty member Kate Smith. The Ramachandran Lab heads the bioinformatics portion of the project. Lilla is graduating from Wheeler High School in Providence in June 2014 and matriculating at Emory University. She continued working through summer 2014 before starting college."
+
+- name: "Michael Goldberg '13"
+  position: "Alum"
+  about: "Former Fulbright Scholar in Montpelier, France (2013-2014); now a Clinical Data Analyst with Foundation Medicine, Boston MA (09/2014-present)."
+
+- name: "Alyna Khan '12"
+  position: "Alum"
+  about: "After college, Alyna held a 2-year fellowship program as the Simons Fellow in Computational Neuroscience at the Marcus Autism Center in Atlanta, GA; she researched dynamic visual scanning patterns of children with autism. She is currently applying to graduate programs in Industrial Design and Education Technology."
+
+- name: "Maya Ramchandran '15"
+  position: "Alum"
+  photo: "maya.png"
+  about: "Maya graduated from brown in 2015 with an Sc.B. in Applied Mathematics - Biology. She joined the Ramachandran Lab in September 2012, and worked with Lauren on distinguishing selective sweeps from bottlenecks in genome-wide data. Her work in summer 2013 was funded by an <a href='http://www.brown.edu/academics/college/fellowships/utra/' target='_blank' title='UTRA Homepage at Brown'>UTRA</a>."
+
+- name: "Natalie Van Houten '14"
+  position: "Alum"
+  about: "Natalie is currently living in Seattle, where she is getting used to West Coast time and preparing to apply to grad school."
+
+- name: "<a href='http://www.stjude.org/yang_jj' target='_blank'>Jun J. Yang</a>"
+  position: "Collaborator"
+  about: "Dr. Yang is on the faculty at <a href='http://www.stjude.org/' target='_blank'>St. Jude Children's Research Hospital</a>, in the Department of Pharmaceutical Sciences. Our collaboration centers around characterizing the evolutionary history of mutations associated with incidence and treatment outcome in acute lymphoblastic leukemia."
+
+- name: "<a href='https://web.stanford.edu/group/rosenberglab/' target='_blank'>Noah A. Rosenberg</a>"
+  position: "Collaborator"
+  about: "The Rosenberg lab at Stanford University has been a longtime collaborator with our group in studies of human population structure."
+
+- name: "<a href='https://ecoevo.stonybrook.edu/hennlab/' target='_blank'>Brenna M. Henn</a>"
+  position: "Collaborator"
+  about: "The Henn Lab at Stony Brook University investigates patterns of human genetic diversity and evolution by pairing genomic datasets with phenotypic, linguistic, and prehistoric information. We are collaborating to generate a new dataset for studying population structure on the Japanese island of Hokkaido."
+
+- name: "<a href='http://compbio.cs.brown.edu/' target='_blank'>Benjamin J. Raphael</a>"
+  position: "Collaborator"
+  about: "The Raphael Lab at Brown University focuses on cancer genomics. We are collaborating on methods for identifying pathways underlying common diseases using germline genetic data from cases and controls."

@@ -1,0 +1,19 @@
+
+# use double quotes (") for outer quotes and single quotes (') for inner.
+# For links: put the pdf in /files/publications, and put just the file title in the 'link' field.
+# For pics: put the thumbnail in /files/publications, and put just the file title in the 'pic' field.
+
+# New:
+# fields are: title, authors, pubname, pubinfo year, link, pic, and other
+# other can contain other links/buttons whatever.
+# You can add "pubprefix" to do something like page numbers and/or "In:"
+
+- title: "Bayesian nonparametric phylodynamics, in Bayesian Phylogenetics: Methods, Algorithms, and Applications"
+  authors: "<ins>Palacios JA</ins>, Gill MS, Suchard MA, and Minin VN"
+  year: "2014"
+  pubinfo: "Edited by Chen MH, Kuo L, Lewis PO"
+  pic: "book1.jpg"
+  
+  
+  
+  
