@@ -8,11 +8,11 @@
 # other can contain other links/buttons whatever.
 # You can add "pubprefix" to do something like page numbers and/or "In:"
 
-- title: "Bayesian nonparametric phylodynamics, in Bayesian Phylogenetics: Methods, Algorithms, and Applications"
-  authors: "<ins>Palacios JA</ins>, Gill MS, Suchard MA, and Minin VN"
-  year: "2014"
-  pubinfo: "Edited by Chen MH, Kuo L, Lewis PO"
-  pic: "book1.jpg"
+- title: "Ageing, and Retirement Security: United States of America, Mexico and Mexican Americans"
+  authors: "Bravo J, M.S. Lai, G. Donehower and, <ins>I Mejía-Guevara</ins>"
+  year: "2015"
+  pubinfo: "In W. Vega, K.S. Markides, J.L. Angel, and F.M. Torres-Gil (Eds.), Challenges of Latino Aging in the Americas. Springer"
+  pic: "book_mexusa.jpg"
   
   
   
