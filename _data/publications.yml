@@ -16,9 +16,17 @@
   pic: "cover_mcn.gif"
   
 - title: "Risk Factors for Child Chronic Undernutrition in India: Estimating Relative Importance, Population Attributable Risk and Fractions"
-  authors: "Corsi, D.J., <ins> I. Mejía-Guevara, I</ins>, and S.V. Subramanian"
+  authors: "Corsi, D.J., <ins> I. Mejía-Guevara</ins>, and S.V. Subramanian"
   pubname: "Social Science & Medicine"
   pubinfo: "In Press. doi:10.1016/j.socscimed.2015.11.014"
 #  year: "In Press"
 #  link: "Palacios et al. -2015 -Genetics.pdf"
   pic: "cover_ssm.gif"  
+
+- title: "Community-Based Health Financing and Child Stunting in Rural Rwanda"
+  authors: "Lu, C., I. Mejía-Guevara, K. Hill, P. Farmer, S.V. Subramanian, and A. Binagwaho"
+  pubname: "American Journal of Public Health"
+  pubinfo: "106(1):49-55"
+  year: "2016"
+#  link: "Palacios et al. -2015 -Genetics.pdf"
+  pic: "cover_ajph.gif"  
